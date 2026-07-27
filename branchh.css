@@ -1,0 +1,102 @@
+/* General Styles */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+body {
+  background: url("blood_bag.jpg");
+  font-family: 'Poppins', Arial, sans-serif;
+  background-color: #f4f4f9;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+h1 {
+  text-align: center;
+  color: #e74c3c;
+}
+
+.search-container {
+  text-align: right;
+  margin-bottom: 20px;
+}
+
+#searchInput {
+  padding: 10px;
+  width: 200px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+th, td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #e74c3c;
+  color: #fff;
+}
+
+tr:hover {
+  background-color: #f5f5f5;
+}
+
+.hidden-row {
+  display: none;
+}
+
+#seeMoreButton {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#seeMoreButton:hover {
+  background-color: #2980b9;
+}
+
+.btn {
+  padding: 8px 16px;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background-color: #2980b9;
+}
+
+.btn.white-btn {
+  background-color: #fff;
+  color: #3498db;
+  border: 1px solid #3498db;
+}
+
+.btn.white-btn:hover {
+  background-color: #3498db;
+  color: #fff;
+}
